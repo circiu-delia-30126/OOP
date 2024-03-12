@@ -1,19 +1,20 @@
 ﻿#pragma once
+
 #include <string>
-#include "Librărie.h"
+#include "Librarie.h"
 
 using namespace std;
 
 class Angajati :
-	public Librărie
+    public Librarie
 {
 public:
-	int AngajatiNoi;
-	bool AngajatiActivi;
+    int AngajatiNoi;
+    bool AngajatiActivi;
 
-	void Angajati_method();
+    void Angajati_method();
 
-	Angajati();
-	~Angajati();
+    Angajati();
+    ~Angajati();
 
 };

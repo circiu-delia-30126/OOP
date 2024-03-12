@@ -24,6 +24,7 @@
     <ProjectGuid>{d0d0f49b-d278-44c2-83f7-7e9dc5de6ba7}</ProjectGuid>
     <RootNamespace>T3IA</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>LibraryProject</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -130,15 +131,15 @@
     <ClCompile Include="Angajati.cpp" />
     <ClCompile Include="Cititori.cpp" />
     <ClCompile Include="InfoSecuritate.cpp" />
-    <ClCompile Include="Librărie.cpp" />
+    <ClCompile Include="Librarie.cpp" />
     <ClCompile Include="Student.cpp" />
-    <ClCompile Include="T3.IA.cpp" />
+    <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Angajati.h" />
     <ClInclude Include="Cititori.h" />
     <ClInclude Include="InfoSecuritate.h" />
-    <ClInclude Include="Librărie.h" />
+    <ClInclude Include="Librarie.h" />
     <ClInclude Include="Student.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

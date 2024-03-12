@@ -4,17 +4,14 @@
 
 using namespace std;
 
-void Student::Student_method()
-{
-	cout << "Un nou student a intrat in librarie!" << endl;
+void Student::Student_method() {
+    cout << "Un nou student a intrat in librarie!" << endl;
 }
 
-Student::Student()
-{
-	cont.setCont();
+Student::Student() {
+    cont.setCont();
 }
 
-Student::~Student()
-{
-	cout << "Destructor!" << endl;
+Student::~Student() {
+    cout << "Destructor!" << endl;
 }
